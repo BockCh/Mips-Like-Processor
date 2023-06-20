@@ -1,0 +1,257 @@
+{C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/sign_extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/sign_extend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity sign_extend
+-- Compiling architecture default_arch of sign_extend
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/concat.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/concat.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concat
+-- Compiling architecture default_arch of concat
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase7.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase7.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_testcase7
+-- Compiling architecture SYN of ram_testcase7
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/mem_logic.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/mem_logic.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem_logic
+-- Compiling architecture default_arch of mem_logic
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/registerfile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/registerfile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity register_file
+-- Compiling architecture sync_read_during_write of register_file
+-- Compiling architecture sync_read of register_file
+-- Loading entity register_file
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux2x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux2x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2x1
+-- Compiling architecture default_arch of mux2x1
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_ec.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_ec.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_ec
+-- Compiling architecture SYN of ram_ec
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controller
+-- Compiling architecture default_arch of controller
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux3x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux3x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux3x1
+-- Compiling architecture default_arch of mux3x1
+-- Loading entity mux2x1
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/zero_extend.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/zero_extend.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity zero_extend
+-- Compiling architecture default_arch of zero_extend
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux4x1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux4x1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux4x1
+-- Compiling architecture STR1 of mux4x1
+-- Loading entity mux2x1
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory
+-- Compiling architecture default_arch of memory
+-- Loading entity reg
+-- Loading entity mem_logic
+-- Loading package altera_mf_components
+-- Loading entity ram_gcd
+-- Loading entity mux3x1
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture BHV of alu
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity controller_tb
+-- Compiling architecture TB of controller_tb
+-- Loading entity controller
+-- Loading package MATH_REAL
+-- Loading entity datapath
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/bubble.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/bubble.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity bubble
+-- Compiling architecture SYN of bubble
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/alucontrol.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/alucontrol.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_control
+-- Compiling architecture BHV of alu_control
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/shiftleft2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/shiftleft2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shiftleft2
+-- Compiling architecture default_arch of shiftleft2
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_testcase1
+-- Compiling architecture SYN of ram_testcase1
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_gcd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_gcd.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_gcd
+-- Compiling architecture SYN of ram_gcd
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_testcase2
+-- Compiling architecture SYN of ram_testcase2
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memory_tb
+-- Compiling architecture TB of memory_tb
+-- Loading entity memory
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu_tb.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_tb
+-- Compiling architecture TB of alu_tb
+-- Loading entity alu
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram_testcase4
+-- Compiling architecture SYN of ram_testcase4
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture default_arch of reg
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/datapath.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/datapath.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity datapath
+-- Compiling architecture str of datapath
+-- Loading entity reg
+-- Loading entity mux2x1
+-- Loading entity memory
+-- Loading entity zero_extend
+-- Loading entity register_file
+-- Loading entity sign_extend
+-- Loading entity shiftleft2
+-- Loading entity mux4x1
+-- Loading entity alu
+-- Loading entity concat
+-- Loading entity alu_control
+-- Loading entity mux3x1
+
+} {} {}} {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package altera_mf_components
+-- Compiling entity ram
+-- Compiling architecture SYN of ram
+
+} {} {}}

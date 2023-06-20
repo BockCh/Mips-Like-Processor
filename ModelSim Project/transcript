@@ -1,0 +1,43 @@
+vsim -gui work.controller_tb
+# vsim -gui work.controller_tb 
+# Start time: 01:52:02 on Jun 19,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.controller_tb(tb)
+# Loading work.controller(default_arch)
+# Loading work.datapath(str)
+# Loading work.reg(default_arch)
+# Loading work.mux2x1(default_arch)
+# Loading altera_mf.altera_mf_components
+# Loading work.memory(default_arch)
+# Loading work.mem_logic(default_arch)
+# Loading work.ram_gcd(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Loading work.mux3x1(default_arch)
+# Loading work.zero_extend(default_arch)
+# Loading work.register_file(sync_read)
+# Loading work.sign_extend(default_arch)
+# Loading work.shiftleft2(default_arch)
+# Loading work.mux4x1(str1)
+# Loading work.alu(bhv)
+# Loading work.concat(default_arch)
+# Loading work.alu_control(bhv)
+add wave /controller_tb/U_DATAPATH/U_MEMORY/U_RAM/altsyncram_component/MEMORY/m_mem_data_a
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: chris  Hostname: DESKTOP-3SBVFUS  ProcessID: 3432
+#           Attempting to use alternate WLF file "./wlft1wntvn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft1wntvn
+do {C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/ModelSim Projects/Final Project/wave.do}
+run -all
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /controller_tb/U_DATAPATH/U_MEMORY/U_MEM_LOGIC
+# Break key hit
+# Break in Process line__19 at C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/reg.vhd line 19

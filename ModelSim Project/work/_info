@@ -1,0 +1,1166 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/ModelSim Projects/Lab6
+Ealu
+Z0 w1682016762
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 737
+Z4 dC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/ModelSim Projects/Final Project
+Z5 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu.vhd
+Z6 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu.vhd
+l0
+L6 1
+VMBM0F1caB5E8:Z:bLmC700
+!s100 z2kMCd9k:EC]QimY5A37A0
+Z7 OV;C;2020.1;71
+32
+Z8 !s110 1682375926
+!i10b 1
+Z9 !s108 1682375926.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu.vhd|
+Z11 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abhv
+R1
+R2
+R3
+Z14 DEx4 work 3 alu 0 22 MBM0F1caB5E8:Z:bLmC700
+!i122 737
+l22
+L20 199
+VmjS;Wo;JoAS:5ff:1KMW<1
+!s100 S9b[AL^RS;zDE@7L?6>XH1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu_control
+Z15 w1682016786
+R1
+R2
+R3
+!i122 745
+R4
+Z16 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/alucontrol.vhd
+Z17 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/alucontrol.vhd
+l0
+L6 1
+V^]dzR_oz]zzGfQoEHcPN@3
+!s100 U;hQMiz=h<2[hACOUaNhS0
+R7
+32
+Z18 !s110 1682375930
+!i10b 1
+Z19 !s108 1682375929.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/alucontrol.vhd|
+Z21 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/alucontrol.vhd|
+!i113 1
+R12
+R13
+Abhv
+R1
+R2
+R3
+Z22 DEx4 work 11 alu_control 0 22 ^]dzR_oz]zzGfQoEHcPN@3
+!i122 745
+l20
+L19 44
+Vgl[Wl[UznME2B26Ub?YLL3
+!s100 nla?^McaolWn`9XafFX_C3
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Ealu_tb
+Z23 w1680823037
+R1
+R2
+R3
+!i122 738
+R4
+Z24 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu_tb.vhd
+Z25 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu_tb.vhd
+l0
+L6 1
+Vkbe6>0hQ@L5oLWoe40IOg2
+!s100 iO>d^7oH`TFW@K1gSL2ig1
+R7
+32
+Z26 !s110 1682375927
+!i10b 1
+R9
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu_tb.vhd|
+Z28 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable1/alu_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R14
+R1
+R2
+R3
+DEx4 work 6 alu_tb 0 22 kbe6>0hQ@L5oLWoe40IOg2
+!i122 738
+l21
+L9 139
+VMO3I2ZV[jFkADoQ>4GUNX3
+!s100 XeDG6z@F>Nolo1WEhILnO3
+R7
+32
+R26
+!i10b 1
+R9
+R27
+R28
+!i113 1
+R12
+R13
+Ebubble
+Z29 w1682017237
+Z30 DPx9 altera_mf 20 altera_mf_components 0 22 BN6nPmY:UEbXa[^5b@FTW1
+R2
+R3
+!i122 760
+R4
+Z31 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/bubble.vhd
+Z32 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/bubble.vhd
+l0
+Z33 L43 1
+VlYaTYe@ezE76zM9E`b[Mn3
+!s100 21FKEN_b;ojz=0f0ONz>g3
+R7
+32
+Z34 !s110 1682375936
+!i10b 1
+Z35 !s108 1682375936.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/bubble.vhd|
+Z37 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/bubble.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+DEx4 work 6 bubble 0 22 lYaTYe@ezE76zM9E`b[Mn3
+!i122 760
+l59
+Z38 L55 36
+Vh:ISg9z^JO4]=BfZc:lTL0
+!s100 n`N@0K<[G_X04bYejhU3J1
+R7
+32
+R34
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R12
+R13
+Econcat
+Z39 w1681955886
+R1
+R2
+R3
+!i122 746
+R4
+Z40 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/concat.vhd
+Z41 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/concat.vhd
+l0
+L5 1
+V6bFl0372A?8R;A`aog>=n0
+!s100 Fn]XDFaI0U[USk8GA^b383
+R7
+32
+R18
+!i10b 1
+Z42 !s108 1682375930.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/concat.vhd|
+Z44 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/concat.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R1
+R2
+R3
+Z45 DEx4 work 6 concat 0 22 6bFl0372A?8R;A`aog>=n0
+!i122 746
+l17
+L16 5
+VRgBhacTRg?InML=8HB83Z1
+!s100 SD4W]YnJdiMh7;nfKW>9E1
+R7
+32
+R18
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R12
+R13
+Econtroller
+Z46 w1682016721
+R1
+R2
+R3
+!i122 754
+R4
+Z47 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller.vhd
+Z48 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller.vhd
+l0
+L6 1
+VI=eL^5EkTzI6znm;To?Cc3
+!s100 oh[43N7HXXLi5DU[Y;09z3
+R7
+32
+Z49 !s110 1682375934
+!i10b 1
+Z50 !s108 1682375933.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller.vhd|
+Z52 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R1
+R2
+R3
+Z53 DEx4 work 10 controller 0 22 I=eL^5EkTzI6znm;To?Cc3
+!i122 754
+l41
+L35 306
+VHeWaK2Z[VUedl[g@JN5=a1
+!s100 F1djCie>RV<h1`6O8e4ZE3
+R7
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13
+Econtroller_tb
+Z54 w1682448606
+R1
+R2
+R3
+!i122 777
+R4
+Z55 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller_tb.vhd
+Z56 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller_tb.vhd
+l0
+L6 1
+V5jh<h6Mn]Zi6^Jd_Am;__3
+!s100 [XfU[R>Efk`Ok:^359e>13
+R7
+32
+Z57 !s110 1682448617
+!i10b 1
+Z58 !s108 1682448617.000000
+Z59 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller_tb.vhd|
+Z60 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week2/Deliverable4/controller_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+Z61 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z62 DEx4 work 8 datapath 0 22 :oDeh1g9nMGJVzoM_lHFK1
+R53
+R1
+R2
+R3
+Z63 DEx4 work 13 controller_tb 0 22 5jh<h6Mn]Zi6^Jd_Am;__3
+!i122 777
+l36
+Z64 L9 106
+VB:<4[N8O10NBO05oJM_hY2
+!s100 8Di41aY[FdWg@gJMEKkJ90
+R7
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 1
+R12
+R13
+Edatapath
+Z65 w1682095769
+R61
+R1
+R2
+R3
+!i122 747
+R4
+Z66 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/datapath.vhd
+Z67 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/datapath.vhd
+l0
+L6 1
+V:oDeh1g9nMGJVzoM_lHFK1
+!s100 8kT3hWg[1Y>liL8T=B[7?3
+R7
+32
+Z68 !s110 1682375931
+!i10b 1
+R42
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/datapath.vhd|
+Z70 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/datapath.vhd|
+!i113 1
+R12
+R13
+Astr
+Z71 DEx4 work 6 mux3x1 0 22 2N=gR31e9HSdif5cnRLOc0
+R22
+R45
+R14
+Z72 DEx4 work 6 mux4x1 0 22 Z0Y0]G9<6nbaUR@V9SC]<1
+Z73 DEx4 work 10 shiftleft2 0 22 9ILUJBUm9`0lm0`h`28FC1
+Z74 DEx4 work 11 sign_extend 0 22 zYYND9IWUK1XfAA8P4UeM3
+Z75 DEx4 work 13 register_file 0 22 iZCbAi@KFBbmhhM?S<P8e1
+Z76 DEx4 work 11 zero_extend 0 22 hP]^QJVDUz`R9l[eec92j2
+Z77 DEx4 work 6 memory 0 22 jo?RIR6D[D_<j08`7[e110
+Z78 DEx4 work 6 mux2x1 0 22 QzWA70<DWbX_]Ii3IeXmP2
+Z79 DEx4 work 3 reg 0 22 [c2`D_;P8MbcW9M1iShXT2
+R61
+R1
+R2
+R3
+R62
+!i122 747
+l47
+L35 260
+VNdgjEmYl07cmeKf4fMF_e3
+!s100 kgdI1n_;VUM`oRRlR<BMz3
+R7
+32
+R68
+!i10b 1
+R42
+R69
+R70
+!i113 1
+R12
+R13
+Emem_logic
+Z80 w1682011037
+R1
+R2
+R3
+!i122 739
+R4
+Z81 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/mem_logic.vhd
+Z82 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/mem_logic.vhd
+l0
+L5 1
+Vh808PbedihT]k@<CKGMZ11
+!s100 MUa<m8EeD0ETe0VSk>^593
+R7
+32
+R26
+!i10b 1
+Z83 !s108 1682375927.000000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/mem_logic.vhd|
+Z85 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/mem_logic.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R1
+R2
+R3
+Z86 DEx4 work 9 mem_logic 0 22 h808PbedihT]k@<CKGMZ11
+!i122 739
+l19
+L18 40
+VM_U_FXEde0j3:IWF1mT[63
+!s100 N;G:A0;RA0I04>8T9>H4T3
+R7
+32
+R26
+!i10b 1
+R83
+R84
+R85
+!i113 1
+R12
+R13
+Ememory
+Z87 w1682443156
+R1
+R2
+R3
+!i122 773
+R4
+Z88 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory.vhd
+Z89 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory.vhd
+l0
+L6 1
+Vjo?RIR6D[D_<j08`7[e110
+!s100 2D2j9C;i_nCMe>W0Yk[:O3
+R7
+32
+Z90 !s110 1682443199
+!i10b 1
+Z91 !s108 1682443198.000000
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory.vhd|
+Z93 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R71
+R30
+Z94 DEx4 work 7 ram_gcd 0 22 >T]oo7k6Q2N47_^3D9<273
+R86
+R79
+R1
+R2
+R3
+R77
+!i122 773
+l30
+L23 72
+V]zh]eidW;CHMe6>VF`Qi21
+!s100 FR;1]Q2hfo@IaC3Se7g[11
+R7
+32
+R90
+!i10b 1
+R91
+R92
+R93
+!i113 1
+R12
+R13
+Ememory_tb
+Z95 w1681505417
+R1
+R2
+R3
+!i122 741
+R4
+Z96 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory_tb.vhd
+Z97 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory_tb.vhd
+l0
+L6 1
+VVAA`=l]_VfT_`:Lh7J:CW2
+!s100 Vl186QRgb`5Dcd2DBj`Oh3
+R7
+32
+Z98 !s110 1682375928
+!i10b 1
+Z99 !s108 1682375928.000000
+Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory_tb.vhd|
+Z101 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/memory_tb.vhd|
+!i113 1
+R12
+R13
+Atb
+R77
+R1
+R2
+R3
+DEx4 work 9 memory_tb 0 22 VAA`=l]_VfT_`:Lh7J:CW2
+!i122 741
+l26
+L9 108
+Vn_Y9`a6LkjP?F9M?;]mn31
+!s100 o2ai?<ihk[:XQ:K4doS`?1
+R7
+32
+R98
+!i10b 1
+R99
+R100
+R101
+!i113 1
+R12
+R13
+Emux2x1
+Z102 w1677514971
+R2
+R3
+!i122 743
+R4
+Z103 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux2x1.vhd
+Z104 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux2x1.vhd
+l0
+L4 1
+VQzWA70<DWbX_]Ii3IeXmP2
+!s100 5X9cHaGHeb9hRjOB6LTPB1
+R7
+32
+Z105 !s110 1682375929
+!i10b 1
+R99
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux2x1.vhd|
+Z107 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux2x1.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R2
+R3
+R78
+!i122 743
+l17
+L16 4
+V>l1W_CO@a_CdG58<3f04n0
+!s100 YLzlVOk7T?N:bW5:CGF@42
+R7
+32
+R105
+!i10b 1
+R99
+R106
+R107
+!i113 1
+R12
+R13
+Emux3x1
+Z108 w1681070705
+R2
+R3
+!i122 742
+R4
+Z109 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux3x1.vhd
+Z110 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux3x1.vhd
+l0
+L4 1
+V2N=gR31e9HSdif5cnRLOc0
+!s100 ?fS6CiY>z=PjXEO<;GJn43
+R7
+32
+R98
+!i10b 1
+R99
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux3x1.vhd|
+Z112 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux3x1.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R78
+R2
+R3
+R71
+!i122 742
+l19
+L17 21
+VF8ER23k4G2_2d=dlH84Z`0
+!s100 ]^G;=3dPJ1<oW14F2fCT60
+R7
+32
+R98
+!i10b 1
+R99
+R111
+R112
+!i113 1
+R12
+R13
+Emux4x1
+Z113 w1680915022
+R2
+R3
+!i122 748
+R4
+Z114 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux4x1.vhd
+Z115 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux4x1.vhd
+l0
+L4 1
+VZ0Y0]G9<6nbaUR@V9SC]<1
+!s100 Y;E;A4lY_^c;iDRF047]a1
+R7
+32
+R68
+!i10b 1
+Z116 !s108 1682375931.000000
+Z117 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux4x1.vhd|
+Z118 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/mux4x1.vhd|
+!i113 1
+R12
+R13
+Astr1
+R78
+R2
+R3
+R72
+!i122 748
+l22
+L17 37
+VA=Pa0kHElf_AXNP?31UnD1
+!s100 WSV6EXVU4ah[a;kMO7DB01
+R7
+32
+R68
+!i10b 1
+R116
+R117
+R118
+!i113 1
+R12
+R13
+Eram
+Z119 w1681502699
+R30
+R2
+R3
+!i122 753
+R4
+Z120 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram.vhd
+Z121 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram.vhd
+l0
+R33
+VU??GgDJKoW:>e<L1TiS<^1
+!s100 T8PJ1fajcAF?KZ39ebk;80
+R7
+32
+Z122 !s110 1682375933
+!i10b 1
+R50
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram.vhd|
+Z124 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+DEx4 work 3 ram 0 22 U??GgDJKoW:>e<L1TiS<^1
+!i122 753
+l59
+R38
+VjkEhkSV=M4`b]hEbimOoL1
+!s100 [21ni[i:Lz_G3fKXjMVEM2
+R7
+32
+R122
+!i10b 1
+R50
+R123
+R124
+!i113 1
+R12
+R13
+Eram_ec
+Z125 w1682376112
+R30
+R2
+R3
+!i122 763
+R4
+Z126 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_ec.vhd
+Z127 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_ec.vhd
+l0
+R33
+VJYB]3gnDcc??Y2^ZZLJhO2
+!s100 <`5W=hL0Q@DICd18VCzgM0
+R7
+32
+Z128 !s110 1682376122
+!i10b 1
+Z129 !s108 1682376121.000000
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_ec.vhd|
+Z131 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_ec.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+DEx4 work 6 ram_ec 0 22 JYB]3gnDcc??Y2^ZZLJhO2
+!i122 763
+l59
+R38
+V@VH3a1V6W5EjLbE7A5_A<2
+!s100 >;a0RT77PWYNbk]g3_CJg2
+R7
+32
+R128
+!i10b 1
+R129
+R130
+R131
+!i113 1
+R12
+R13
+Eram_gcd
+Z132 w1682009058
+R30
+R2
+R3
+!i122 761
+R4
+Z133 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_gcd.vhd
+Z134 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_gcd.vhd
+l0
+R33
+V>T]oo7k6Q2N47_^3D9<273
+!s100 kgN^d;zEHab3Kg[VJc8Rk1
+R7
+32
+Z135 !s110 1682375937
+!i10b 1
+R35
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_gcd.vhd|
+Z137 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_gcd.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+R94
+!i122 761
+l59
+R38
+VodfY4NEjnjj@U1a<R8@=63
+!s100 :5MV0kZBn1]iPK=P2Shd03
+R7
+32
+R135
+!i10b 1
+R35
+R136
+R137
+!i113 1
+R12
+R13
+Eram_testcase1
+Z138 w1681941560
+R30
+R2
+R3
+!i122 756
+R4
+Z139 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase1.vhd
+Z140 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase1.vhd
+l0
+R33
+VfNn5<z<;QQaihkadUK[?00
+!s100 `kGg>JO:^cZD@[WjR78bW2
+R7
+32
+Z141 !s110 1682375935
+!i10b 1
+Z142 !s108 1682375934.000000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase1.vhd|
+Z144 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase1.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+DEx4 work 13 ram_testcase1 0 22 fNn5<z<;QQaihkadUK[?00
+!i122 756
+l59
+R38
+VgH?z>HLJfk8Y0UUO[83lR2
+!s100 QgeEZ5LFhPCe>0Fc8EBiT2
+R7
+32
+R141
+!i10b 1
+R142
+R143
+R144
+!i113 1
+R12
+R13
+Eram_testcase2
+Z145 w1681941629
+R30
+R2
+R3
+!i122 757
+R4
+Z146 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase2.vhd
+Z147 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase2.vhd
+l0
+R33
+Vm^m2z8R5_m7F:CPfOd6UD0
+!s100 @g5BNmOSJS:^i>[:z1UUi1
+R7
+32
+R141
+!i10b 1
+Z148 !s108 1682375935.000000
+Z149 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase2.vhd|
+Z150 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase2.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+DEx4 work 13 ram_testcase2 0 22 m^m2z8R5_m7F:CPfOd6UD0
+!i122 757
+l59
+R38
+VR>ElKL[5i087MMcfOO2Id3
+!s100 12810EC4gOPK_?[b8B6NR3
+R7
+32
+R141
+!i10b 1
+R148
+R149
+R150
+!i113 1
+R12
+R13
+Eram_testcase4
+Z151 w1681941683
+R30
+R2
+R3
+!i122 758
+R4
+Z152 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase4.vhd
+Z153 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase4.vhd
+l0
+R33
+VPCGX48Fd`cERH9UdF_ACI2
+!s100 9=RYJ[1WAgB3FFMj54PbS3
+R7
+32
+R141
+!i10b 1
+R148
+Z154 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase4.vhd|
+Z155 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase4.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+DEx4 work 13 ram_testcase4 0 22 PCGX48Fd`cERH9UdF_ACI2
+!i122 758
+l59
+R38
+Vbc1mFB:cl<L=Y^B<am;iQ0
+!s100 jeAjHmLCcVZ7]m1QafCa[0
+R7
+32
+R141
+!i10b 1
+R148
+R154
+R155
+!i113 1
+R12
+R13
+Eram_testcase7
+Z156 w1681941737
+R30
+R2
+R3
+!i122 759
+R4
+Z157 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase7.vhd
+Z158 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase7.vhd
+l0
+R33
+VOOaH0:6F<`]3]<lAS:=fk2
+!s100 3^8?jE0^FXz??hmF5ki`T0
+R7
+32
+R34
+!i10b 1
+R35
+Z159 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase7.vhd|
+Z160 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable2/ram_testcase7.vhd|
+!i113 1
+R12
+R13
+Asyn
+R30
+R2
+R3
+DEx4 work 13 ram_testcase7 0 22 OOaH0:6F<`]3]<lAS:=fk2
+!i122 759
+l59
+R38
+V=k34YcmgHhZ=M`_2KG6Jm2
+!s100 9;9JkS;mnG<Aj=k8Em]f_3
+R7
+32
+R34
+!i10b 1
+R35
+R159
+R160
+!i113 1
+R12
+R13
+Ereg
+Z161 w1677515015
+R2
+R3
+!i122 744
+R4
+Z162 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/reg.vhd
+Z163 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/reg.vhd
+l0
+L4 1
+V[c2`D_;P8MbcW9M1iShXT2
+!s100 B@X1g^3_XYfCRQDd972e_1
+R7
+32
+R105
+!i10b 1
+R19
+Z164 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/reg.vhd|
+Z165 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/reg.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R2
+R3
+R79
+!i122 744
+l18
+L17 13
+V7fS`P5B[]Zd]7[kmZmklW0
+!s100 RmPWI7eEl_BFoJAEeICoU1
+R7
+32
+R105
+!i10b 1
+R19
+R164
+R165
+!i113 1
+R12
+R13
+Eregister_file
+Z166 w1681953816
+R1
+R2
+R3
+!i122 749
+R4
+Z167 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/registerfile.vhd
+Z168 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/registerfile.vhd
+l0
+L5 1
+ViZCbAi@KFBbmhhM?S<P8e1
+!s100 Qh<?=TUkY::UZ6V_fT^Ni0
+R7
+32
+R68
+!i10b 1
+R116
+Z169 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/registerfile.vhd|
+Z170 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/registerfile.vhd|
+!i113 1
+R12
+R13
+Async_read
+R1
+R2
+R3
+R75
+!i122 749
+l54
+L50 24
+Vg<EjaN;`D=`Z:VmKnDWjC2
+!s100 GPMfR@[8XVaEbof0?G`R:1
+R7
+32
+R68
+!i10b 1
+R116
+R169
+R170
+!i113 1
+R12
+R13
+Async_read_during_write
+R1
+R2
+R3
+R75
+!i122 749
+l26
+L20 29
+VQ`bf59Beh^<j^;moIO@LA1
+!s100 @:AjoABa`BK>RzE5mjZ@H0
+R7
+32
+R68
+!i10b 1
+R116
+R169
+R170
+!i113 1
+R12
+R13
+Eshiftleft2
+Z171 w1681955036
+R1
+R2
+R3
+!i122 750
+R4
+Z172 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/shiftleft2.vhd
+Z173 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/shiftleft2.vhd
+l0
+L5 1
+V9ILUJBUm9`0lm0`h`28FC1
+!s100 ggC?>Q0EBcZALW=d9R3E;0
+R7
+32
+Z174 !s110 1682375932
+!i10b 1
+Z175 !s108 1682375932.000000
+Z176 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/shiftleft2.vhd|
+Z177 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/shiftleft2.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R1
+R2
+R3
+R73
+!i122 750
+l16
+L15 5
+V1^XIIdBA:=V[c^ET0g7kI0
+!s100 =>[DJ<D?UQ`o<aVSXk36:1
+R7
+32
+R174
+!i10b 1
+R175
+R176
+R177
+!i113 1
+R12
+R13
+Esign_extend
+Z178 w1681961623
+R1
+R2
+R3
+!i122 751
+R4
+Z179 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/sign_extend.vhd
+Z180 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/sign_extend.vhd
+l0
+L5 1
+VzYYND9IWUK1XfAA8P4UeM3
+!s100 OT_aJ_OIMzgT_R8:]XN:T3
+R7
+32
+R174
+!i10b 1
+R175
+Z181 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/sign_extend.vhd|
+Z182 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/sign_extend.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R1
+R2
+R3
+R74
+!i122 751
+l17
+L16 13
+V=01WDgPR@X:KK5P@FTb041
+!s100 lJFg425EDK;Chgm4z6Thg0
+R7
+32
+R174
+!i10b 1
+R175
+R181
+R182
+!i113 1
+R12
+R13
+Ezero_extend
+Z183 w1682005560
+R2
+R3
+!i122 752
+R4
+Z184 8C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/zero_extend.vhd
+Z185 FC:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/zero_extend.vhd
+l0
+L4 1
+VhP]^QJVDUz`R9l[eec92j2
+!s100 d]J>3zaT1]Ta3aO@K_EIS3
+R7
+32
+R122
+!i10b 1
+R50
+Z186 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/zero_extend.vhd|
+Z187 !s107 C:/Users/chris/OneDrive/Documents/2022-2023/SPRING/EEL4712C/Labs/Final Project/Week1/Deliverable3/zero_extend.vhd|
+!i113 1
+R12
+R13
+Adefault_arch
+R2
+R3
+R76
+!i122 752
+l15
+L14 5
+VYo7R>Bblb8O5`li@DAKJg0
+!s100 o;9@]0DhkeCMTkO<c5mMo0
+R7
+32
+R122
+!i10b 1
+R50
+R186
+R187
+!i113 1
+R12
+R13

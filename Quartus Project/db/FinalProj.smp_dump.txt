@@ -1,0 +1,21 @@
+
+State Machine - |top_level|controller:U_CONTROLLER|state_r
+Name state_r.stop state_r.Mem_read_2 state_r.OP_Rbeq_cycle2 state_r.OP_Itype_cycle2 state_r.OP_Itype_cycle1 state_r.IR_Write state_r.Mem_read state_r.LW_mem state_r.SW_mem state_r.OP_Jal state_r.OP_J state_r.OP_Rbeq state_r.OP_Rtype_cycle2 state_r.OP_Rtype_cycle1 state_r.OP_LW_SW state_r.Instruction_decode state_r.IR_Fetch state_r.Start 
+state_r.Start 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state_r.IR_Fetch 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state_r.Instruction_decode 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state_r.OP_LW_SW 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state_r.OP_Rtype_cycle1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state_r.OP_Rtype_cycle2 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state_r.OP_Rbeq 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state_r.OP_J 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state_r.OP_Jal 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state_r.SW_mem 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state_r.LW_mem 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state_r.Mem_read 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state_r.IR_Write 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.OP_Itype_cycle1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.OP_Itype_cycle2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.OP_Rbeq_cycle2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.Mem_read_2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+state_r.stop 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
