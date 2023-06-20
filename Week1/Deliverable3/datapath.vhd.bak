@@ -1,0 +1,263 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+use ieee.math_real.all;
+
+entity datapath is
+    generic (
+        WIDTH : positive :=32
+        );    
+    port (
+		clk          : in  std_logic;
+		rst          : in  std_logic;		
+		JumpAndLInk  : in  std_logic;
+		IsSigned     : in  std_logic;
+		PCSource     : in  std_logic_vector(1 downto 0);
+		ALUOp        : in  std_logic_vector(5 downto 0);
+		ALUSrcB      : in  std_logic_vector(3 downto 0);
+		ALUSrcA      : in  std_logic;
+		RegWrite     : in  std_logic;
+		RegDst       : in  std_logic;
+		PCWriteCond  : in  std_logic;
+		PCWrite      : in  std_logic;
+		IorD         : in  std_logic;
+		MemRead      : in  std_logic;
+		MemWrite     : in  std_logic;
+		MemToReg     : in  std_logic;
+		IRWrite      : in  std_logic;
+		s            :in std_logic_vector(width-1 downto 0);
+		buttons      :in std_logic_vector(1 downto 0);
+		IR_TO_CTRL   :out std_logic_vector(5 downto 0);
+		leds         :out std_logic_vector(15 downto 0)
+        );
+end datapath;
+
+architecture str of datapath is
+signal data_mux1, data_mux2, pc_reg_data, data_mux3, data_mux4 : std_logic_vector(WIDTH-1 downto 0);
+signal pc_en,HI_en, LO_en, port0_en, port1_en : std_logic;
+signal input1             : std_logic_vector(WIDTH-1 downto 0) := (others => '0');
+signal input2             : std_logic_vector(WIDTH-1 downto 0) := (others => '0');
+signal IR10_6             :  std_logic_vector(4 downto 0);
+signal IR31_26            :  std_logic_vector(5 downto 0);
+signal OPSelect           : std_logic_vector(5 downto 0)       := (others => '0');
+signal result, result_Hi, branch_Taken, instruction, mem_data_reg, rd_data0, rd_data1, regA_data, regB_data, sign_ex     : std_logic_vector(WIDTH-1 downto 0);
+signal SHL_bot, SHL_top   : std_logic_vector(WIDTH-1 downto 0);
+signal SHL_top     : std_logic_vector(25 downto 0);
+signal IR, IOPORT,concat_out,lo_out_reg_data, hi_out_reg_data,ALU_LO_HI, wr_data, outport   : std_logic_vector(WIDTH-1 downto 0);
+ 
+begin
+
+	pc_en <= (branch_Taken(0) and PCWriteCond) or PCWrite;
+	IR_TO_CTRL <= IR(31 downto 26);
+	
+	U_DATA_REG_PC : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => pc_en,
+                  input  => data_mux6,
+                  output => pc_reg_data);
+
+	U_MUX1 : entity work.mux2x1
+        generic map (WIDTH => data_mux1'length)
+        port map (
+            in0    => pc_reg_data,
+            in1    => alu_out_reg_data,
+            sel    => IorD,
+            output => data_mux1
+            );
+	
+	U_MEMORY : entity work.memory
+		port map(
+	        clk    => clk,
+			rst  => rst,
+			port0_en => port0_en,
+			port1_en => port1_en,
+			MemWrite => MemWrite,
+			MemRead  => MemRead,
+			addr     => data_mux1,
+			wr_data  => wr_data,
+			IO_ZERO  => IOPORT,
+			outport  => outport,
+			instruction => instruction
+			
+		);
+	
+	U_ZERO_EX : entity work.zero_extend
+	generic map ( width => width)
+	port map (
+		input  => s(9 downto 0),
+		output => IOPORT);
+	
+	U_DATA_REG_IR : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => IRWrite,
+                  input  => instruction,
+                  output => IR);
+
+	IR31_26 <= IR(31 downto 26);
+		
+	U_DATA_REG_MDR : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => '1',
+                  input  => instruction,
+                  output => mem_data_reg);				  
+	
+	
+	U_MUX2 : entity work.mux2x1
+        generic map (WIDTH => data_mux2'length) 
+        port map (
+            in0    => IR(20 downto 16),
+            in1    => IR(15 downto 11),
+            sel    => RegDst,
+            output => data_mux2
+            );
+
+
+	U_MUX3 : entity work.mux2x1
+        generic map (WIDTH => data_mux3'length) 
+        port map (
+            in0    => data_mux7,
+            in1    => mem_data_reg,
+            sel    => MemToReg,
+            output => data_mux3
+            );
+			
+			
+	U_REGFILE : entity work.register_file		
+		generic map (WIDTH => WIDTH)
+        port map (
+            clk      => clk,
+            rst      => rst,
+			rd_addr0 => IR(25 downto 21),
+            rd_addr1 => IR(20 downto 16),
+            wr_addr  => data_mux2,
+            wr_en    => result_Hi,
+            wr_data  => data_mux3,
+            rd_data0 => rd_data0,
+            rd_data1 => rd_data1
+			);
+			
+	U_SIGN_EX : entity work.sign_extend
+	generic map ( width => width)
+	port map (
+		input  => IR(15 downto 0),
+		output => sign_ex	);	
+			
+	U_DATA_REGA : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => '1',
+                  input  => rd_data0,
+                  output => regA_data);		
+
+	U_DATA_REGB : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => '1',
+                  input  => rd_data1,
+                  output => regB_data);
+				  
+	U_MUX4 : entity work.mux2x1
+        generic map (WIDTH => data_mux4'length) 
+        port map (
+            in0    => pc_reg_data,
+            in1    => regA_data,
+            sel    => ALUSrcA,
+            output => data_mux4
+            );
+			
+	U_SHL2 : entity work.shiftleft2
+	generic map ( width => width)
+	port map (
+		input  => sign_ex,
+		output => SHL_bot);			
+	
+	U_MUX5 : entity work.mux4x1
+        generic map (WIDTH => data_mux5'length) 
+        port map (
+            input0    => regB_data,
+            input1    => "00000000000000000000000000000100",
+            input2    => sign_ex,
+            input3    => SHL_bot,
+            sel    => ALUSrcB,
+            output => data_mux5
+            );
+
+	
+		
+	UUT : entity work.alu
+        generic map (WIDTH => WIDTH)
+        port map (
+            input1       => data_mux4,
+            input2       => data_mux5,
+			IR10_6       => IR(10 downto 6),
+            OPSelect     => OPSelect,
+            result       => result,
+            result_Hi    => result_Hi,
+            branch_Taken => branch_Taken
+			);
+			
+	U_SHL2 : entity work.shiftleft2
+	generic map ( width => SHL_top'length)
+	port map (
+		input  => IR(25 downto 0),
+		output => SHL_top);	
+
+	U_CONCAT : entity work.concat
+	generic map ( width => SHL_top'length)
+	port map (
+		input1  => SHL_top,
+		output =>  concat_out);	
+		
+	U_DATA_ALU_OUT : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => '1',
+                  input  => result,
+                  output => alu_out_reg_data);		
+	U_DATA_LO : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => LO_en,
+                  input  => result,
+                  output => lo_out_reg_data);
+				  
+	U_DATA_HI : entity work.reg
+        generic map (WIDTH => WIDTH)
+        port map (clk    => clk,
+                  rst    => rst,
+                  en     => HI_en,
+                  input  => result_Hi,
+                  output => hi_out_reg_data);				  
+
+	U_MUX6 : entity work.mux3x1
+        generic map (WIDTH => data_mux6'length) 
+        port map (
+            in0    => branch_Taken,
+            in1    => alu_out_reg_data,
+            in2    => concat_out,
+            sel    => PCSource,
+            output => data_mux6
+            );
+				
+	U_MUX7 : entity work.mux3x1
+        generic map (WIDTH => data_mux7'length) 
+        port map (
+            in0    => alu_out_reg_data,
+            in1    => lo_out_reg_data,
+            in2    => hi_out_reg_data,
+            sel    => ALU_LO_HI,
+            output => data_mux7
+            );
+			
+			
+end str;

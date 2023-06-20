@@ -1,0 +1,45 @@
+library ieee; 
+use ieee.std_logic_1164.all; 
+use ieee.numeric_std.all;
+--use ieee.std_logic_arith.ALL;
+
+entity alu_control is
+generic ( 
+WIDTH : positive := 32 ); 
+port (
+ALUOp       : in std_logic_vector(5 downto 0);
+IR5_0       : in std_logic_vector(5 downto 0);
+OPSelect    : out std_logic_vector(5 downto 0);
+ALU_LO_HI   : out std_logic_vector(1 downto 0); 
+HI_en       : out std_logic; 
+LO_en       : out std_logic
+);
+end alu_control;
+
+architecture BHV of alu_control is
+begin 
+		process(ALUOp, IR5_0)
+		begin
+		if (ALUOp = "00000") then
+		OPSelect <= IR5_0;
+		HI_en <= '0';
+		LO_en <= '0';
+		ALU_LO_HI <= "00";
+		else
+		
+		OPSelect <= ALUOp;
+		if(OPSelect = "011000" or OPSelect = "011001") then
+		HI_en <= '1';
+		LO_en <= '1';
+		ALU_LO_HI <= "10";
+		else 
+		ALU_LO_HI <= "00";
+		HI_en <= '0';
+		LO_en <= '0';
+		end if;
+		
+		end if;
+		
+		end process;
+				
+end BHV;

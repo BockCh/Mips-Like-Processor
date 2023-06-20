@@ -1,0 +1,53 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity mux4x1 is
+    port(
+        input0 : in  std_logic_vector(31 downto 0);
+        input1 : in  std_logic_vector(31 downto 0);
+        input2 : in  std_logic_vector(31 downto 0);
+        input3 : in  std_logic_vector(31 downto 0);
+        sel    : in  std_logic_vector(1 downto 0);
+        output : out std_logic_vector(31 downto 0)
+        );
+end mux4x1;
+
+
+
+architecture STR1 of mux4x1 is
+
+    -- Signals for internal connections between muxes.
+    signal mux1_out, mux2_out : std_logic_vector(31 downto 0);
+
+begin
+
+
+    
+    U_MUX1 : entity work.mux2x1
+	generic map (WIDTH => mux1_out'length) 
+	port map (
+        in0    => input2,
+        in1    => input3,
+        sel    => sel(0),
+        output => mux1_out
+        );
+
+    U_MUX2 : entity work.mux2x1 
+	generic map (WIDTH => mux1_out'length) 
+	port map (
+        in0    => input0,
+        in1    => input1,
+        sel    => sel(0),
+        output => mux2_out
+        );
+
+    U_MUX3 : entity work.mux2x1
+	generic map (WIDTH => mux1_out'length) 
+	port map (
+        in0    => mux2_out,
+        in1    => mux1_out,
+        sel    => sel(1),
+        output => output
+        );
+
+end STR1;
