@@ -9,3 +9,4 @@ To learn more about MIPS if this is your first microprocessor project.
 
 All the Files necessary to simulate on ModelSim or put on your FPGA are available in this repository.
 I reccomend creating your own ModelSim or Quartus project for testing purposes.
+Screenshots of the microprocessor in the RTL Viewer are in the image file.
